@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <center>
+        <h1>Pagina HOME.</h1>
+        <img src="{% static 'images/dijno.png' %}"/>
+        <h2>{{ curso }}</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for product in products %}
+                <tr>
+                    <td><a href="{% url 'product' product.pk %}">{{ product.name }}</a></td>
+                    <td>{{ product.price }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>
