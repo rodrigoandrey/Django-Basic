@@ -1,6 +1,13 @@
+Udemy Course: Programação Web com Python e Django Framework: Essencial.
+
+Link: https://www.udemy.com/course/programacao-web-com-django-framework-do-basico-ao-avancado/
+
+Created by: Geek University (https://www.udemy.com/user/geek-university/)
+
+
 # Django-Basic
 
-https://djangobasic-ra.herokuapp.com
+Heroku APP: https://djangobasic-ra.herokuapp.com
 
 
 # Module Basic - What has been learned:
